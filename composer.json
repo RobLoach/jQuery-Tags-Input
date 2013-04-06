@@ -1,0 +1,32 @@
+{
+    "name": "xoxco/jquery-tags-input",
+    "description": "Magically convert a simple text input into a cool tag list with this jQuery plugin.",
+    "type": "component",
+    "homepage": "http://xoxco.com/projects/code/tagsinput/",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/xoxco/jQuery-Tags-Input/issues"
+    },
+    "authors": [
+        {
+            "name": "Ben Brown",
+            "homepage": "http://benbrown.com"
+        }
+    ],
+    "require": {
+        "components/jquery": "*"
+    },
+    "extra": {
+        "component": {
+            "scripts": [
+                "jquery.tagsinput.js"
+            ],
+            "styles": [
+                "jquery.tagsinput.css"
+            ],
+            "shim": {
+                "deps": "jquery"
+            }
+        }
+    }
+}
