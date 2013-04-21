@@ -24,6 +24,9 @@
             "styles": [
                 "jquery.tagsinput.css"
             ],
+            "files": [
+                "jquery.tagsinput.min.js"
+            ],
             "shim": {
                 "deps": "jquery"
             }
